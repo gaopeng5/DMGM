@@ -9,6 +9,12 @@ Code and dataset for ICRA2023 paper "Deep Masked Graph Matching for Corresponden
 ## Dataset
 ![fig3-1](https://user-images.githubusercontent.com/58457277/224859588-4e8bbe0a-1249-4dfa-b62f-56810526e30e.png )
 
+The full dataset we used in this paper can be found here
+
+To reproduce the results shown in this paper, we provide our pre-trained model and our test dataset
+
+We further generate more data after the paper submission, the full raw data can be found here
+
 ## Citation
 If you use DMGM in a scientific publication, we would appreciate using the following citation:
 
