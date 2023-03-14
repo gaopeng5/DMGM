@@ -18,7 +18,7 @@ The overview of our approach is shown as follows:
 
 3. Our full raw dataset (one scenario) used in this paper can be found [here]
 
-4. Our extended dataset (including four scenarios) can be found [here](https://mines0-my.sharepoint.com/:f:/g/personal/ahinds_mines_edu/Ej9MU4SzKSdJgGslc1RjcKUBjPxjXkkWNA7i6U6mCOkdxw?e=bNhRna)
+4. Our extended dataset (including four scenarios) can be found [here](https://drive.google.com/drive/u/1/folders/1_OmWAn2dGzXk0-37Lk0Il5e8r9FsOG53)
 
 ## Requirements
 
