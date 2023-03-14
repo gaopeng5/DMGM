@@ -26,3 +26,9 @@ If you use DMGM in a scientific publication, we would appreciate using the follo
         journal = {ICRA 2023},
         year = {2023}
 ---
+
+## Requirements
+We recommend python3.9. You can install required dependencies by:
+---
+    pip -r install requirements.txt
+---
