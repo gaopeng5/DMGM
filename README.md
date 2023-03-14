@@ -20,16 +20,6 @@ The overview of our approach is shown as follows:
 
 4. Our extended dataset (including four scenarios) can be found [here](https://mines0-my.sharepoint.com/:f:/g/personal/ahinds_mines_edu/Ej9MU4SzKSdJgGslc1RjcKUBjPxjXkkWNA7i6U6mCOkdxw?e=bNhRna)
 
-## Citation
-If you use DMGM in a scientific publication, we would appreciate using the following citation:
-
----
-    @article{Deep Masked Graph Matching for Correspondence Identification in Collaborative Perception,
-        author = {Peng Gao, Qingzhao Zhu, Hongsheng Lu, Chuang Gan, and Hao Zhang},
-        journal = {ICRA 2023},
-        year = {2023}
----
-
 ## Requirements
 
 We recommend python3.9. You can install required dependencies by:
@@ -44,4 +34,15 @@ We provide pre-trained model in checkpoint folder. To reproduce our results show
 
 ---
     python run test_rural_ours.py
+---
+
+
+## Citation
+If you use DMGM in a scientific publication, we would appreciate using the following citation:
+
+---
+    @article{Deep Masked Graph Matching for Correspondence Identification in Collaborative Perception,
+        author = {Peng Gao, Qingzhao Zhu, Hongsheng Lu, Chuang Gan, and Hao Zhang},
+        journal = {ICRA 2023},
+        year = {2023}
 ---
