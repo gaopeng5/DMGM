@@ -6,7 +6,7 @@ Code and dataset for ICRA2023 paper "Deep Masked Graph Matching for Corresponden
 The overview of our approach is shown as follows:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/58457277/224859225-d0ed29f8-263b-4ca6-afb4-b55791c3e450.png" width="500" height="400"/>
+<img src="https://user-images.githubusercontent.com/58457277/224859225-d0ed29f8-263b-4ca6-afb4-b55791c3e450.png" width="550" height="400"/>
 <p >
 
 ## Dataset
