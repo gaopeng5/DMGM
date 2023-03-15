@@ -22,9 +22,12 @@ The overview of our approach is shown as follows:
 
 ## Requirements
 
-We recommend python3.9. You can install required dependencies by:
+Our work is based on Pytorch and Pytorch-Geometric, we recommend using conda environment to run our code.
     
 ---
+    conda create --name DMGM python=3.9
+    conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+    conda install pyg -c pyg
     pip -r install requirements.txt
 ---
 
