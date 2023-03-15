@@ -24,8 +24,8 @@ model_path = './checkpoint/'
 test_method = 'DMGM'
 save_path = './results'
 
-start = 69467
-num_testdata = 1#5462
+start = 69467 #60260 is the start idex for test dataset
+num_testdata = 1#5462 is the number of data instances in the test dataset
 num_totaldata = start + num_testdata
 
 
