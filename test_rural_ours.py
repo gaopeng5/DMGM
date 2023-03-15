@@ -24,10 +24,9 @@ model_path = './checkpoint/'
 test_method = 'DMGM'
 save_path = './results'
 
-num_traindata = 60260
-num_valdata = 3747
-num_testdata = 5462
-num_totaldata = num_traindata + num_valdata + num_testdata
+start = 60260
+num_testdata = 1#5462
+num_totaldata = start + num_testdata
 
 
 need_to_train = False
@@ -57,13 +56,12 @@ out_path_t = os.path.join('data/testdata/proc_t')
 
 
 gps_noise_datasets_s = [testdata(in_path_s, out_path_s, cat) 
-                   for cat in list(map("{:05d}".format, range(num_traindata, num_totaldata)))]
+                   for cat in list(map("{:05d}".format, range(start, num_totaldata)))]
 gps_noise_datasets_t = [testdata(in_path_t, out_path_t, cat) 
-                   for cat in list(map("{:05d}".format, range(num_traindata, num_totaldata)))]
+                   for cat in list(map("{:05d}".format, range(start, num_totaldata)))]
 gps_noise_datasets = [PairDataset(test_s, test_t, sample=False) 
                       for test_s, test_t in zip(gps_noise_datasets_s, gps_noise_datasets_t)]
-val_datasets = torch.utils.data.ConcatDataset(gps_noise_datasets[0:num_valdata])
-test_datasets = torch.utils.data.ConcatDataset(gps_noise_datasets[num_valdata:num_valdata+num_testdata])
+test_datasets = torch.utils.data.ConcatDataset(gps_noise_datasets)
 
 num_edge_features = test_datasets.datasets[0].dataset_s.num_edge_features
 num_node_features = test_datasets.datasets[0].dataset_s.num_node_features
