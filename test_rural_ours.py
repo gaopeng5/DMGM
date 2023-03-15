@@ -24,7 +24,7 @@ model_path = './checkpoint/'
 test_method = 'DMGM'
 save_path = './results'
 
-start = 60260
+start = 69467
 num_testdata = 1#5462
 num_totaldata = start + num_testdata
 
