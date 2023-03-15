@@ -1,0 +1,8 @@
+numpy
+scikit-learn
+matplotlib
+torch==1.12.0
+pyg=2.1.0
+scipy
+Pillow
+
