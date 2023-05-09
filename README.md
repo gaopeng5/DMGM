@@ -55,15 +55,10 @@ If you use DMGM in a scientific publication, we would appreciate using the follo
 
 ---
     @inproceedings{shah2022gnm, 
-
     author    = {Gao, Peng and Zhu, Qingzhao and Lu, Hongsheng and Gan, Chuang and Zhang, Hao}, 
-
     title     = {{Deep Masked Graph Matching for Correspondence Identification in Collaborative Perception}}, 
-
     booktitle = {International Conference on Robotics and Automation (ICRA)}, 
-
     year      = {2023},
-
     url      = {https://arxiv.org/abs/2303.07555} 
 
 }
