@@ -54,7 +54,7 @@ and then run the "test_rural_ours.py".
 If you use DMGM in a scientific publication, we would appreciate using the following citation:
 
 ---
-    @inproceedings{shah2022gnm, 
+    @inproceedings{gao2023deep, 
     author    = {Gao, Peng and Zhu, Qingzhao and Lu, Hongsheng and Gan, Chuang and Zhang, Hao}, 
     title     = {{Deep Masked Graph Matching for Correspondence Identification in Collaborative Perception}}, 
     booktitle = {International Conference on Robotics and Automation (ICRA)}, 
