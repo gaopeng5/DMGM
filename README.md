@@ -28,7 +28,7 @@ Our work is based on Pytorch and Pytorch-Geometric, we recommend using conda env
     conda create --name DMGM python=3.9
     conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
     conda install pyg -c pyg
-    pip -r install requirements.txt
+    pip install -r requirements.txt
 ---
 
 ## Test
